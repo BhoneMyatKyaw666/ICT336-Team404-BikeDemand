@@ -1,0 +1,45 @@
+{
+  "status": "final",
+  "selected_model": "Gradient Boosting",
+  "cv_mae": 73.34102260056221,
+  "best_params": {
+    "model__l2_regularization": 1,
+    "model__learning_rate": 0.1,
+    "model__max_leaf_nodes": 15
+  },
+  "test_cutoff": "2012-08-07",
+  "seed": 404,
+  "features": [
+    "mnth",
+    "hr",
+    "weekday",
+    "holiday",
+    "weathersit",
+    "temp",
+    "hum",
+    "windspeed"
+  ],
+  "success_relative_mae_reduction": 0.25,
+  "test_scores": {
+    "mae": 91.92039387171512,
+    "rmse": 130.2941037029629,
+    "r2": 0.6508107309961979,
+    "baseline_mae": 182.83572247706422,
+    "relative_mae_reduction": 0.4972514526900177,
+    "success_met": true
+  },
+  "group_mae_gap": 6.311580206985468,
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "streamlit": "1.67.0",
+    "matplotlib": "3.11.2"
+  },
+  "training_end": "2012-08-06 23:00:00",
+  "test_start": "2012-08-07 00:00:00",
+  "test_end": "2012-12-31 23:00:00",
+  "source": "https://doi.org/10.24432/C5W894",
+  "licence": "CC BY 4.0"
+}
